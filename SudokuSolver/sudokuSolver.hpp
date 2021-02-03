@@ -1,3 +1,6 @@
+#ifndef SUDOKU_SOLVER_HPP
+#define SUDOKU_SOLVER_HPP
+
 class SudokuSolver
 {
 public:
@@ -78,3 +81,5 @@ private:
 
 	static bool isUnstable(const FlipGrid& solution, const FlipGrid& validMoves);
 };
+
+#endif // SUDOKU_SOLVER_HPP
